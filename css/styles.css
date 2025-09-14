@@ -6,10 +6,12 @@ body{
     margin: 32px;
 }
 #header div{
+    display: flex;
     gap: 32px;
     align-items: center;
 }
 #header{
+    /*border: 1px solid saddlebrown;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,16 +27,30 @@ body{
     font-weight: bolder;
 }
 #header button{
-    padding: 8px;
+    padding: 16px;
     background-color: black;
     color: rgb(234, 221, 238);
     border-radius: 8px;
     font-weight: bold;
+    border: none;
 }
 #header button:hover{
-    padding: 8px;
-    background-color: black;
+    background: linear-gradient(110deg, rgb(218, 72, 218), rgb(241, 123, 241));
     color: rgb(252, 252, 252);
     border-radius: 8px;
     font-weight: bolder;
+}
+
+
+#heroS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+h3{
+    background-color: rgba(0, 0, 0, 0.025);
+    color: rgb(48, 40, 40);
+    padding: 8px;
+    border-radius: 16px;
 }
