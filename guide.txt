@@ -1,32 +1,3 @@
-## 🔹 **Step-by-Step Build Plan: NFT Gallery**
-
-### **1. Project Setup** //Done
-
-* Create a folder: `nft-gallery`
-* Inside, make:
-
-  * `index.html`
-  * `style.css`
-  * `images/` (store NFT placeholder images here)
-
----
-
-### **2. Page Layout**
-
-Your page will have 4 main sections:
-
-1. **Header**
-
-   * Logo or site title (`NFT Gallery` / `MyNFTs`)
-   * Navigation bar (Home | Explore | Wallet | About)
-   * A glowing **Connect Wallet** button
-
-2. **Hero Section**
-
-   * Big title: *Discover & Collect NFTs*
-   * Subtitle: *Showcasing futuristic digital art*
-   * Background gradient or animated CSS effect
-
 3. **NFT Gallery Grid**
 
    * Display NFT cards (3–4 per row, responsive).
