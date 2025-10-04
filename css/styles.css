@@ -70,14 +70,16 @@ h4{
 #card-container{
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
-    justify-content: space-around;
-    padding: 12px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: start;
+    padding: 32px;
     width: auto;
     height: auto;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     border-radius: 8px;
     box-sizing: border-box;
+    background: linear-gradient(110deg, rgb(78, 8, 78), rgb(241, 123, 241));
 }
 
 #card-container img{
@@ -91,10 +93,13 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 200px;
     height: auto;
     padding: 32px;
     border-radius: 8px;
-    border: 1px solid purple;
+    border: 1px solid rgb(238, 231, 238);
+    box-sizing: border-box;
+    color: rgb(238, 231, 238);
 }
 .card:hover{
     background-color: rgba(83, 14, 83, 0.25);
@@ -128,4 +133,21 @@ h4{
     height: 200px;
     margin-top: 48px;
     border-radius: 8px;
+}
+
+.conW{
+    padding: 16px;
+    background-color: rgb(214, 153, 153);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+
+.conW:hover{
+    background: linear-gradient(110deg, rgb(218, 72, 218), rgb(241, 123, 241));
+    color: white;
+    border-radius: 8px;
+    font-weight: bolder;
 }
