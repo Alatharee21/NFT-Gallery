@@ -156,18 +156,19 @@ h4{
 }
 
 #walletBox{
+    display: flex;
+    flex-direction: column;
     margin-top: 52px;
-    display: block;
     gap: 2px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
 }
 
 #walletBox button{
     padding: 16px;
     border-radius: 16px;
     border: none;
+    cursor: pointer;
+    width: 320px;
 }
 
 #walletBox button:hover{

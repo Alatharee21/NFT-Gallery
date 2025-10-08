@@ -18,10 +18,10 @@
         </div>
 
         <div id="walletBox">
-            <button>Slush</button>
-            <button>Metamask</button>
-            <button>OKX wallet</button>
-            <button>not-Rainbow wallet</button>
+            <button class="btn">Slush</button>
+            <button class="btn">Metamask</button>
+            <button class="btn">OKX wallet</button>
+            <button class="btn">not-Rainbow wallet</button>
         </div>
         
 
@@ -29,5 +29,14 @@
             <h3>Built with ❤️ using HTML & CSS</h3>
             <a href="https://x.com/rasheed_sol" style="color: whitesmoke;">Follow on X</a>
         </div>
+
+        <script>
+        let buttoned = document.getElementById("walletBox");
+        function clicked(){
+            alert("Connect your wallet buddy");
+        }
+
+        buttoned.addEventListener('click', clicked);
+    </script>
     </body>
 </html>
